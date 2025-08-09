@@ -124,7 +124,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/Youtube_Clone">
         <AppContent />
       </Router>
     </ThemeProvider>
